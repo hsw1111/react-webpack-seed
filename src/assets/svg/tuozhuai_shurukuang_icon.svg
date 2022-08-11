@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工艺流程编辑器" transform="translate(-1410.000000, -562.000000)">
+            <g id="编组-3" transform="translate(1136.000000, 52.000000)">
+                <g id="编组-9备份-10" transform="translate(16.000000, 312.000000)">
+                    <g id="tuozhuai_shurukuang_icon" transform="translate(258.000000, 198.000000)">
+                        <path d="M14,0 L14,12 C14,13.1045695 13.1045695,14 12,14 L0,14 L0,14 L14,0 Z" id="矩形" fill="#F9FAFD"></path>
+                        <path d="M14,0 L14,12 C14,13.1045695 13.1045695,14 12,14 L0,14 L14,0 Z M13,2.414 L2.414,13 L12,13 C12.5128358,13 12.9355072,12.6139598 12.9932723,12.1166211 L13,12 L13,2.414 Z" id="矩形备份-11" fill="#CCD0D9" fill-rule="nonzero"></path>
+                        <line x1="11.5814047" y1="6.67693055" x2="6.79327026" y2="11.3809486" id="路径-2" stroke="#CCD0D9" stroke-linecap="round"></line>
+                        <line x1="11.7836582" y1="9.63798544" x2="9.56559667" y2="11.8171793" id="路径-3" stroke="#CCD0D9" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

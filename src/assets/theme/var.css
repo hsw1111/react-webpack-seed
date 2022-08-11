@@ -1,0 +1,18 @@
+/* 项目中全局css变量 */
+html {
+  --primary-color: rgb(34, 211, 166);
+  --primary-color-20: rgb(211,246,237);
+  --link-color: rgb(34, 211, 166);
+  --success-color: rgb(82, 196, 26);
+  --warning-color: rgb(250, 173, 20);
+  --error-color: #e58888;
+  --layout-text: rgb(241, 240, 240);
+  --layout-background: rgba(0, 0, 0, 0.85);
+  --heading-color: rgba(0, 0, 0, 0.85);
+  --text-color: rgba(0, 0, 0, 0.65);
+  --text-color-secondary: rgba(0, 0, 0, 0.45);
+  --disabled-color: rgba(0, 0, 0, 0.25);
+  --border-color-base: #d8dfef;
+  --mom-hover-bg-color: rgba(31, 32, 35, 0.05);
+  --mom-border-width-base: 1px;
+}

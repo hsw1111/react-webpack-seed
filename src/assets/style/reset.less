@@ -1,0 +1,83 @@
+/* 表格*/
+.ant-table-container {
+  // margin-right: -8px;
+  .ant-table-cell {
+    padding: 10px !important;
+    color: rgba(0, 0, 0, 0.65) !important;
+    font-size: 13px !important;
+    line-height: 23px !important;
+    &.ant-table-cell-scrollbar {
+      background: #fff;
+      border-bottom: none;
+    }
+  }
+  // 表头
+  .ant-table-thead {
+    > tr:first-child th:first-child {
+      // padding-left: 24px !important;
+    }
+    .ant-table-cell::before {
+      display: none !important;
+    }
+    > tr > th {
+      color: rgba(0, 0, 0, 0.85) !important;
+      font-weight: 600 !important;
+      font-size: 13px !important;
+      line-height: 23px !important;
+    }
+  }
+  .ant-table-tbody {
+    > tr > td:first-child {
+      // padding-left: 24px !important;
+    }
+  }
+}
+// 表格线条颜色
+.ant-table-tbody > tr > td,
+.ant-table-thead > tr > th {
+  border-bottom: var(--mom-border-width-base) solid var(--border-color-base);
+}
+.ant-table-tbody > tr.ant-table-row-selected > td {
+  background: var(--primary-color-20) !important;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  // background: var(--mom-hover-bg-color); // 横向滚动内容会重叠
+}
+.ant-table-thead > tr > th {
+  background: #f9fafc !important;
+}
+
+.ant-table-row.selected {
+  > td {
+    background: var(--primary-color-20) !important;
+  }
+}
+
+button.ant-btn.ant-btn-default {
+  > span:last-child {
+    margin-left: 4px;
+  }
+  > svg {
+    margin-bottom: -1px;
+  }
+  &:hover {
+    svg {
+      g g {
+        fill: var(--primary-color);
+      }
+    }
+  }
+}
+
+// 固定抽屉中form元素的label宽度，使标签右对齐
+.ant-drawer-content-wrapper {
+  .ant-form-item-label {
+    width: 100px;
+  }
+}
+
+//Divider
+//.ant-divider{
+//border-top: 1px solid var(--border-color-base) !important;
+//}

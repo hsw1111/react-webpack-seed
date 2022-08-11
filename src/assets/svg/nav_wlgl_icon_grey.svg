@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="52" height="900"></rect>
+        <filter x="-12.5%" y="-0.6%" width="125.0%" height="101.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0823529412   0 0 0 0 0.160784314  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.847058824   0 0 0 0 0.874509804   0 0 0 0 0.937254902  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="侧边导航-收起-绿" transform="translate(-16.000000, -282.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="900"></rect>
+            <g id="nav_bar">
+                <g id="Rectangle-2-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F7F8FA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Repeat-Group" transform="translate(0.000000, 140.000000)">
+                    <g id="编组-12备份" transform="translate(0.000000, 132.000000)">
+                        <rect id="Rectangle-8-Copy-2备份" x="0" y="0" width="52" height="40"></rect>
+                        <g id="nav_wlgl_icon_grey" transform="translate(16.000000, 10.000000)">
+                            <rect id="矩形" x="0" y="0" width="20" height="20" rx="4"></rect>
+                            <path d="M10.6483786,16.5218228 L16.837451,14.0414324 L16.837451,6.50680017 L10.6483786,8.76086747 L10.6483786,16.5218228 L10.6483786,16.5218228 Z M9.48583048,16.5749674 L9.48583048,8.78560723 L3.16254811,6.46556723 L3.16254811,14.0414324 L9.48583048,16.5749674 L9.48583048,16.5749674 Z M15.9632729,5.57676834 L10.0362725,3.21916055 L4.09657663,5.55844259 L10.0326452,7.73645802 L15.9632729,5.57676834 L15.9632729,5.57676834 Z M2.36998411,4.9775163 L9.82679623,2.03989852 C9.96305043,1.98638599 10.1142568,1.98671316 10.2502829,2.0408148 L17.6318287,4.97660002 C17.8541732,5.0651294 18.0002344,5.28214543 18,5.52362367 L18,14.4391012 C18,14.6800848 17.8549073,14.897245 17.6327355,14.9852086 L10.2149168,17.9585616 C10.077169,18.0138128 9.92373695,18.0138128 9.78598916,17.9585616 L2.36726364,14.9861249 C2.14558348,14.8974255 2,14.6809339 2,14.4400175 L2,5.52453995 C2,5.28264005 2.14690546,5.06456362 2.36998411,4.9775163 Z M4.81840837,9.47465545 C4.6256421,9.39658056 4.48874096,9.22052357 4.45927431,9.01280342 C4.42980765,8.80508327 4.51225216,8.59725761 4.67555178,8.46761235 C4.83885141,8.33796708 5.05819705,8.30619842 5.25096333,8.3842733 L7.57243226,9.32621687 C7.8704231,9.44716321 8.01495868,9.78929994 7.89526152,10.0904007 C7.77556436,10.3915014 7.43696133,10.5375453 7.13897048,10.416599 L4.81750155,9.47465545 L4.81840837,9.47465545 Z" id="形状" fill="#72747F" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
